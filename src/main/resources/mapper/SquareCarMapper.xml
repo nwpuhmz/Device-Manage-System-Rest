@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.scuhmz.device.dao.SquareCarMapper">
+  <resultMap id="BaseResultMap" type="com.scuhmz.device.model.SquareCar">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="category" jdbcType="INTEGER" property="category" />
+    <result column="org_name" jdbcType="VARCHAR" property="orgName" />
+    <result column="dep_name" jdbcType="VARCHAR" property="depName" />
+    <result column="unified_num" jdbcType="VARCHAR" property="unifiedNum" />
+    <result column="device_name" jdbcType="VARCHAR" property="deviceName" />
+    <result column="equipment_type" jdbcType="VARCHAR" property="equipmentType" />
+    <result column="machine_num" jdbcType="VARCHAR" property="machineNum" />
+    <result column="leave_factory_date" jdbcType="DATE" property="leaveFactoryDate" />
+    <result column="manufactor" jdbcType="VARCHAR" property="manufactor" />
+    <result column="dep_code" jdbcType="VARCHAR" property="depCode" />
+    <result column="country" jdbcType="VARCHAR" property="country" />
+    <result column="start_date" jdbcType="DATE" property="startDate" />
+    <result column="original_value" jdbcType="VARCHAR" property="originalValue" />
+    <result column="user" jdbcType="VARCHAR" property="user" />
+    <result column="use_desc" jdbcType="VARCHAR" property="useDesc" />
+    <result column="install_site" jdbcType="VARCHAR" property="installSite" />
+    <result column="funding_sources" jdbcType="VARCHAR" property="fundingSources" />
+    <result column="Reg_number" jdbcType="VARCHAR" property="regNumber" />
+    <result column="sys_name" jdbcType="VARCHAR" property="sysName" />
+    <result column="sys_code" jdbcType="VARCHAR" property="sysCode" />
+    <result column="comments" jdbcType="VARCHAR" property="comments" />
+    <result column="project_attr" jdbcType="VARCHAR" property="projectAttr" />
+    <result column="contract_number" jdbcType="VARCHAR" property="contractNumber" />
+  </resultMap>
+</mapper>

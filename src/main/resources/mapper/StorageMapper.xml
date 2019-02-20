@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.scuhmz.device.dao.StorageMapper">
+  <resultMap id="BaseResultMap" type="com.scuhmz.device.model.Storage">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="category" jdbcType="INTEGER" property="category" />
+    <result column="org_name" jdbcType="VARCHAR" property="orgName" />
+    <result column="dep_name" jdbcType="VARCHAR" property="depName" />
+    <result column="security_num" jdbcType="VARCHAR" property="securityNum" />
+    <result column="secret_class" jdbcType="VARCHAR" property="secretClass" />
+    <result column="machine_num" jdbcType="VARCHAR" property="machineNum" />
+    <result column="manufactor" jdbcType="VARCHAR" property="manufactor" />
+    <result column="sn" jdbcType="VARCHAR" property="sn" />
+    <result column="ip" jdbcType="VARCHAR" property="ip" />
+    <result column="mac" jdbcType="VARCHAR" property="mac" />
+    <result column="user" jdbcType="VARCHAR" property="user" />
+    <result column="use_desc" jdbcType="VARCHAR" property="useDesc" />
+    <result column="comments" jdbcType="VARCHAR" property="comments" />
+    <result column="storage_type" jdbcType="VARCHAR" property="storageType" />
+    <result column="storage_size" jdbcType="VARCHAR" property="storageSize" />
+  </resultMap>
+</mapper>
