@@ -37,4 +37,10 @@
     <result column="project_attr" jdbcType="VARCHAR" property="projectAttr" />
     <result column="contract_number" jdbcType="VARCHAR" property="contractNumber" />
   </resultMap>
+
+  <!--多条件查询Map集合-->
+  <select id="findByCustomCondition" resultMap="BaseResultMap">
+   SELECT  *from computer_special WHERE unified_num LIKE '%' #{ unifiedNum } '%'
+  </select>
+
 </mapper>

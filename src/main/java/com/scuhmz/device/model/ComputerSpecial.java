@@ -1,5 +1,7 @@
 package com.scuhmz.device.model;
 
+import com.alibaba.fastjson.annotation.JSONField;
+
 import java.util.Date;
 import javax.persistence.*;
 
@@ -36,6 +38,7 @@ public class ComputerSpecial {
     private String machineNum;
 
     @Column(name = "leave_factory_date")
+    @JSONField(format="yyyy-MM-dd")
     private Date leaveFactoryDate;
 
     private String manufactor;
@@ -46,6 +49,7 @@ public class ComputerSpecial {
     private String country;
 
     @Column(name = "start_date")
+    @JSONField(format="yyyy-MM-dd")
     private Date startDate;
 
     @Column(name = "original_value")
@@ -55,6 +59,7 @@ public class ComputerSpecial {
     private String osVersion;
 
     @Column(name = "os_install_date")
+    @JSONField(format="yyyy-MM-dd")
     private Date osInstallDate;
 
     @Column(name = "disk_sn")
